@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <a href="/count">./</a>
-      <CapsLockModerno>gifttab.com</CapsLockModerno>
+      <CapsLockModerno>gifttab-com</CapsLockModerno>
       <h1>Feliz Aniversario</h1>
     </div>
   );
