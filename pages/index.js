@@ -1,9 +1,10 @@
 import CapsLock from "./capsLock";
+import CapsLockModerno from "./capsLockModerno";
 
 function Home() {
   return (
     <div>
-      <CapsLock texto="Gittab.com" />
+      <CapsLockModerno>GIFTTAB.COM</CapsLockModerno>
       <h1>Feliz Aniversario</h1>
     </div>
   );
