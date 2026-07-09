@@ -1,0 +1,27 @@
+{
+  "name": "gifttab.com",
+  "version": "1.0.0",
+  "description": "Um site para dar presentes para meus amigos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusbd-dev/gifttab.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/matheusbd-dev/gifttab.com/issues"
+  },
+  "homepage": "https://github.com/matheusbd-dev/gifttab.com#readme",
+  "dependencies": {
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
