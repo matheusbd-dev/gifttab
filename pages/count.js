@@ -5,9 +5,8 @@ import Contador from "../components/contador";
 function Home() {
   return (
     <div>
-      <a href="/count">./</a>
-      <CapsLockModerno>gifttab.com</CapsLockModerno>
-      <h1>Feliz Aniversario</h1>
+      <a href="/">./</a>
+      <Contador />
     </div>
   );
 }
