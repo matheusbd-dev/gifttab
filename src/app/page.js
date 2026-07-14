@@ -3,7 +3,7 @@ import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <header className="flex min-h-screen flex-col bg-[#121212] container mx-auto px-12 py-4">
+    <header className="flex flex-row bg-[#282c34] container mx-auto px-3 py-3">
       <HeroSection />
     </header>
   );
