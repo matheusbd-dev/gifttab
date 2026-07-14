@@ -1,6 +1,6 @@
 import Image from "next/image";
-import HeroSection from "./components/HeroSection";
-import BodySection from "./components/BodySection";
+import HeroSection from "../components/HeroSection";
+import MainSection from "../components/MainSection";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <HeroSection />
       </header>
       <main>
-        <BodySection />
+        <MainSection />
       </main>
     </div>
   );
