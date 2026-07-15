@@ -93,7 +93,7 @@ const MainSection = () => {
               </span>{" "}
               fica tranquila que eu falo depois, alguém perto de você ira falar,
               nunca esqueça das 7 regras, e não mostre o site para ninguém, essa
-              é a unica forma de saber quem é o verdadeiro.
+              é a unica forma de saber quem é a verdadeira(o).
             </li>
           </ol>
         </section>
