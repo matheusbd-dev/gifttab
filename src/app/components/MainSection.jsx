@@ -38,9 +38,9 @@ const MainSection = () => {
           </p>
         </PaperCard>
 
-        {/* 5 regras */}
+        {/* 7 regras */}
         <section className="flex flex-col items-center text-center gap-4 sm:gap-5 w-full">
-          <CapsLock>5 regras para saber quem sou eu</CapsLock>
+          <CapsLock>7 regras para saber quem sou eu</CapsLock>
 
           <ol
             className="flex flex-col gap-3 sm:gap-4 text-[#494e57] text-sm sm:text-base lg:text-lg leading-relaxed text-left w-full"
@@ -54,20 +54,7 @@ const MainSection = () => {
 
             <li>
               <span className="font-semibold">
-                2° O site só ficará 2 dias online:
-              </span>{" "}
-              depois tudo o que tiver na página some, ou seja, até 16/07 às
-              23:59.
-            </li>
-
-            <li>
-              <span className="font-semibold">3° Nossa distância</span> é de
-              aproximadamente 43,1Km.
-            </li>
-
-            <li>
-              <span className="font-semibold">
-                4° Não acredite na(o) primeira(o)
+                2° Não acredite na(o) primeira(o)
               </span>{" "}
               que falar que foi ela(e) que fez a página, muitos vão se passar
               por mim.
@@ -75,10 +62,38 @@ const MainSection = () => {
 
             <li>
               <span className="font-semibold">
-                5° Algumas dicas escondem informações
+                3° O site só ficará 2 dias online:
+              </span>{" "}
+              depois tudo o que tiver na página some, ou seja, até 16/07 às
+              23:59.
+            </li>
+
+            <li>
+              <span className="font-semibold">4° Nossa distância</span> é de
+              aproximadamente 43,1Km.
+            </li>
+
+            <li>
+              <span className="font-semibold">5° Meu nome contem</span> _ _ _ _
+              _
+            </li>
+
+            <li>
+              <span className="font-semibold">
+                6° Algumas dicas escondem informações
               </span>{" "}
               e outras não levam para lugar nenhum, vamos ver quem ganha: Dra.
-              Alexia v/s gifttab.com, que vença o melhor kskks.
+              Alexia v/s Rick (Não é meu nome e sim meu apelido), que vença o
+              melhor kskks.
+            </li>
+
+            <li>
+              <span className="font-semibold">
+                7° Caso não souber quem é eu,
+              </span>{" "}
+              fica tranquila que eu falo depois, alguém perto de você ira falar,
+              nunca esqueça das 7 regras, e não mostre o site para ninguém, essa
+              é a unica forma de saber quem é o verdadeiro.
             </li>
           </ol>
         </section>

@@ -38,8 +38,8 @@ const BodySection = () => {
               className="text-[#494e57] text-sm sm:text-base lg:text-xl leading-relaxed"
               style={{ fontFamily: "'Poppins', sans-serif" }}
             >
-              E caso você tenha namorado ou namorada, sem preconceito, né? dá
-              uma cadeia ksksks Kkkkk. Peço perdão e garanto que isso não irá
+              OBS: em caso você tenha namorado ou namorada, sem preconceito, né?
+              dá uma cadeia ksksks Kkkkk. Peço perdão e garanto que isso não irá
               acontecer novamente. E, por favor, não conte para ela(e), não
               queremos morrer. Tenha santa piedade desta alma perdida aqui.
             </p>
