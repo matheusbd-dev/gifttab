@@ -75,7 +75,7 @@ const MainSection = () => {
 
             <li>
               <span className="font-semibold">5° Meu nome contem</span> _ _ _ _
-              _
+            
             </li>
 
             <li>
