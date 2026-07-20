@@ -38,10 +38,13 @@ const BodySection = () => {
               className="text-[#494e57] text-sm sm:text-base lg:text-xl leading-relaxed"
               style={{ fontFamily: "'Poppins', sans-serif" }}
             >
-              OBS: em caso você tenha namorado ou namorada, sem preconceito, né?
-              dá uma cadeia ksksks Kkkkk. Peço perdão e garanto que isso não irá
-              acontecer novamente. E, por favor, não conte para ela(e), não
-              queremos morrer. Tenha santa piedade desta alma perdida aqui.
+              E deixa eu ser bem sincera(o), bem provavelmente alguém nunca te deu um buquê desse nível, fui a(o) primeira(o), espero que tenha gostado.
+            </p>
+            <p
+              className="text-[#494e57] text-sm sm:text-base lg:text-xl leading-relaxed"
+              style={{ fontFamily: "'Poppins', sans-serif" }}
+            >
+              OBS: sei que você não tem namorado(a), agora namorada já é outra coisa kskskak, sem preconceito, né? Dá uma cadeia ksksks Kkkkk. Peço perdão caso esteja conhecendo alguém, não sabia, garanto que isso não irá acontecer novamente. Mas veja pelo lado bom, é mais para você escolher na sua lista. Além disso, uma gata merece ser respeitada, né??
             </p>
           </section>
         </GiftReveal>
@@ -51,3 +54,4 @@ const BodySection = () => {
 };
 
 export default BodySection;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
