@@ -42,8 +42,14 @@ const MainSection = () => {
             onClick={() => setActiveCard(type)}
             className="cursor-pointer w-full max-w-sm transform transition-all duration-300 hover:scale-105"
           >
-            <div className={`rounded-lg shadow-lg overflow-hidden border-2`} style={{ borderColor: accentColor, backgroundColor: accentColor }}>
-              <div className="h-32 sm:h-40 flex items-center justify-center relative" style={{ backgroundColor: bgColor }}>
+            <div
+              className={`rounded-lg shadow-lg overflow-hidden border-2`}
+              style={{ borderColor: accentColor, backgroundColor: accentColor }}
+            >
+              <div
+                className="h-32 sm:h-40 flex items-center justify-center relative"
+                style={{ backgroundColor: bgColor }}
+              >
                 <div className="absolute top-0 left-0 right-0 h-1/2">
                   <svg
                     viewBox="0 0 200 100"
@@ -103,7 +109,11 @@ const MainSection = () => {
                       color: textColor,
                     }}
                   >
-                    Sei que não me conhece nem eu conheço você muito bem. Olha, esse presente aqui é algo que se dá quando há um envolvimento especial, o que eu estou bem longe de ter com você nesse momento.
+                    Sei que não me conhece nem eu conheço você muito bem. Olha,
+                    esse presente aqui é algo que se dá quando se tem um(a)
+                    namorado(a), o que eu estou bem longe de ter com você nesse
+                    momento, estou praticamente no nível de um(a)
+                    desconhecido(a).
                   </p>
 
                   <p
@@ -113,7 +123,9 @@ const MainSection = () => {
                       color: textColor,
                     }}
                   >
-                    Pode parecer até um pouco gringe o que vou falar aqui, mas por você, Dra. Alexia, por você eu iria até o infinito e daria minha vida.
+                    Pode parecer até um pouco gringe o que vou falar aqui, mas
+                    por você, Dra. Alexia, por você eu iria até o infinito e
+                    daria minha vida.
                   </p>
                 </>
               ) : (
@@ -136,7 +148,9 @@ const MainSection = () => {
                       color: textColor,
                     }}
                   >
-                    Você só sai ganhando. Você decide o lugar, tudo pago por mim, é claro. Obviamente, sair como duas desconhecidas(os) que estão se conhecendo.
+                    Você só sai ganhando. Você decide o lugar, tudo pago por
+                    mim, é claro. Obviamente, sair como duas pessoas
+                    desconhecidas que estão se conhecendo.
                   </p>
 
                   <p
@@ -146,7 +160,9 @@ const MainSection = () => {
                       color: textColor,
                     }}
                   >
-                    Tudo começa no estado de inércia. E nem vem falar que estou sem tempo ou que tem bastante coisa para fazer, MENTIRA...
+                    Tudo começa no estado de inércia. E nem vem falar que você
+                    está sem tempo ou que tem bastante coisa para fazer,
+                    MENTIRA, que eu sei que você está de férias.
                   </p>
 
                   <p
@@ -156,7 +172,8 @@ const MainSection = () => {
                       color: textColor,
                     }}
                   >
-                    Fia, aproveita! Como diria o Cobra Kai: quem fica muito na defesa uma hora esquece como ataca.
+                    Fia, aproveita! Como diria o Cobra Kai: quem fica muito na
+                    defesa uma hora esquece como ataca.
                   </p>
                 </>
               )}
@@ -235,7 +252,32 @@ const MainSection = () => {
                 color: "#494e57",
               }}
             >
-              Ainda não decidi o lugar e nem a data para eu aparecer.
+              Caso queira muito saber quem mandou, me encontre hoje depois do
+              expediente, às 17:15, perto da sua casa, naquele parquinho que tem
+              lá. Tenho certeza de que você vai ficar surpreso(a).
+            </p>
+
+            <p
+              className="text-base sm:text-lg leading-relaxed text-center mt-4"
+              style={{
+                fontFamily: "'Poppins', sans-serif",
+                color: "#494e57",
+              }}
+            >
+               Caso prefira outra forma, tenho meu segundo número. Caso você
+              mande mensagem para ele no WhatsApp, só vou responder 1 dia
+              depois, no dia 22/07/2026 às 10h, assim você tem mais tempo para
+              pensar em quem é a pessoa kksksks, perdão
+            </p>
+
+            <p
+              className="text-base sm:text-lg leading-relaxed text-center mt-4 font-semibold"
+              style={{
+                fontFamily: "'Poppins', sans-serif",
+                color: "#dc143c",
+              }}
+            >
+              Meu número: 44 98831-8390
             </p>
 
             <button
@@ -312,28 +354,34 @@ const MainSection = () => {
             </li>
 
             <li>
-              <span className="font-semibold">
-                3° O site só ficará 2 dias online:
-              </span>{" "}
-              depois tudo o que tiver na página some, ou seja, até 16/07 às
-              23:59, caso não souber pode fixar tranquilo irei falar para você.
-            </li>
-
-            <li>
-              <span className="font-semibold">4° Nossa distância</span> é de
-              aproximadamente 43,1 km.
-            </li>
-
-            <li>
-              <span className="font-semibold">5° Meu nome contém</span> *********S (deixe esse S vermelho)
+              <span className="font-semibold">3° Meu nome contém</span>{" "}
+              *********<span style={{ color: "#dc143c" }}>S</span>, e não se
+              atenha à quantidade de "*".
             </li>
 
             <li>
               <span className="font-semibold">
-                6° Algumas dicas escondem informações
+                4° Algumas dicas escondem informações
               </span>{" "}
-              e outras não levam para lugar nenhum, vamos ver quem ganha: Dra.
-              Alexia v/s Rick (Rick and Morty), que vença o melhor ksksk.
+              e outras não levam a lugar nenhum. Escolha bem qual você acha que
+              é a verdadeira.
+            </li>
+
+            <li>
+              <span className="font-semibold">
+                5° A pessoa que te mandou isso
+              </span>{" "}
+              é bem criativa e pensa fora da caixa.
+            </li>
+
+            <li>
+              <span className="font-semibold">6° O site vai ficar</span> no ar
+              por apenas 1 dia, sendo desativado às 23:59 de 21/07/2026.
+            </li>
+
+            <li>
+              <span className="font-semibold">7° Você vai ficar</span> mais
+              surpresa com quem mandou do que com o motivo.
             </li>
           </ol>
         </section>
